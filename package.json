@@ -13,7 +13,10 @@
     "bootstrap-icons": "^1.13.1",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
+<<<<<<< HEAD
     "react-icons": "^5.5.0",
+=======
+>>>>>>> 461ea182b6d90e6ca39d71059a26a664e5158541
     "react-router-dom": "^7.7.0"
   },
   "devDependencies": {
@@ -25,6 +28,10 @@
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.20",
     "globals": "^16.3.0",
+<<<<<<< HEAD
     "vite": "^7.0.5"
+=======
+    "vite": "^7.0.4"
+>>>>>>> 461ea182b6d90e6ca39d71059a26a664e5158541
   }
 }
