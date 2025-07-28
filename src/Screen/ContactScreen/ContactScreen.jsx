@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import React, { useState, useContext } from "react";
 import ContactList from "../../Components/ContactList/ContactList";
 import { useContactContext } from "../../Context/ContactContext";
@@ -26,18 +26,6 @@ const ContactScreen=()=>{
             <div className="contacts-list">
                 <ContactList contacts={filterContacts} onSelect={handleSelect}/>
             </div>
-=======
-import {React, useState} from "react";
-import { getContacts } from "../../Services/ContactServices";
-import ContactList from "../../Components/ContactList/ContactList";
-
-const ContactScreen=()=>{
-    const Contacts= getContacts();
-    const [contactState, setContacts]=useState(Contacts)
-    return(
-        <div>
-            <ContactList contacts={contactState}/>
->>>>>>> 461ea182b6d90e6ca39d71059a26a664e5158541
         </div>
     )
     
