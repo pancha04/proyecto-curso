@@ -244,6 +244,9 @@ html,body, #root{
     border: none;
     box-sizing: none;
 }
+.background-dark .message-input{
+    color: white;
+}
 .message-info{
     position: absolute;
     right: 8px;

@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import React from "react"
 import { useContactContext } from '../../Context/ContactContext'
 
@@ -23,20 +23,4 @@ const Contact = ({ contact, onSelect }) => {
 }
 
 export default Contact
-=======
-import React from "react";
-import { Link } from "react-router-dom";
 
-const Contact=({contact})=>{
-    return(
-        <Link to={`/contactos/${contact.id}/mensajes`}>
-            <h2>{contact.name}</h2>
-            <img src={contact.avatar} alt={contact.name} />
-            <span>{contact.connectionStatus}</span>
-        </Link>
-
-    )
-}
-
-export default Contact;
->>>>>>> 461ea182b6d90e6ca39d71059a26a664e5158541
