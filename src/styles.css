@@ -48,15 +48,7 @@ html,body, #root{
 }
 
 .back-button{
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    font-size: 20px;
-    padding: 0;
+    display: none;
 }
 .background-light .back-button{
     color: black;
@@ -409,6 +401,18 @@ html,body, #root{
     .chat-screen-container {
     width: 100%;
     }
+
+    .back-button{
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-size: 20px;
+        padding: 0;
+    }
 }
 
 @media screen and (max-width: 480px) {
@@ -427,6 +431,8 @@ html,body, #root{
         height: 40px;
         position: fixed;
     }
+
+    
 
     .sidebar-content {
         display: flex;
