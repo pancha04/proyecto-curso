@@ -24,7 +24,7 @@ const Sidebar=()=>{
                     <div className="icon"><HiStatusOnline /></div>
                     <div className="icon"><MdOutlineGroups /></div>
                     <div className="icon"><BsTelephone /></div>
-                    <button className="toggle-theme" onClick={toggleTheme}></button>
+                    <button className="toggle-theme" title="Cambiar tema" onClick={toggleTheme}></button>
                 </div>
                 <div className="sidebar-icons-bottom">
                     <div className="icon"><IoSettingsOutline /></div>
