@@ -2,7 +2,7 @@
 import React, { useState, useContext } from "react";
 import ContactList from "../../Components/ContactList/ContactList";
 import { useContactContext } from "../../Context/ContactContext";
-import Seeker from "../../Components/seeker/Seeker";
+import Seeker from "../../Components/Seeker/Seeker";
 import { useNavigate } from 'react-router-dom'
 
 
