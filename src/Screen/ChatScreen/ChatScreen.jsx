@@ -21,7 +21,7 @@ const ChatScreen = () => {
     return (
     <div className="chat-screen">
         <div className="contact-item">
-            <button className="back-button" onClick={() => navigate(-1)}><IoIosArrowBack /></button>
+            <button className="back-button" onClick={() => navigate("/contactos")}><IoIosArrowBack /></button>
             <div className="contact-avatar">
                 <img src={contactSelected.avatar} alt={contactSelected.name} />
             </div>
